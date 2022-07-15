@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Szunsoku\\Auth\\": "src/"
+            "Szunsoku\\Auth2\\": "src/"
         },
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
