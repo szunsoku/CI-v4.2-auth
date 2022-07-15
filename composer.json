@@ -1,0 +1,31 @@
+{
+    "name": "szunsoku/auth",
+    "description": "Authentication/authorization system for CodeIgniter 4.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "codeigniter",
+        "authentication",
+        "authorization"
+    ],
+    "authors": [
+        {
+            "name": "szunsoku",
+            "email": "szunsoku@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Szunsoku\\Auth\\": "src"
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
