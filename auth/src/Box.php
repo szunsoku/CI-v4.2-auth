@@ -6,6 +6,6 @@ class Box
 
     public function open()
     {
-        echo 'BOX open3';
+        echo 'BOX open4';
     }
 }
