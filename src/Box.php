@@ -1,5 +1,5 @@
 <?php
-namespace Szunsoku\Auth3;
+namespace Szunsoku\Auth;
 
 class Box
 {
