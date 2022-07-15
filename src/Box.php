@@ -1,5 +1,5 @@
 <?php
-namespace Okatse;
+namespace Szunsoku\Auth;
 
 class Box
 {
