@@ -1,5 +1,5 @@
 {
-    "name": "szunsoku/sz-auth",
+    "name": "szunsoku/auth",
     "description": "Authentication/authorization system for CodeIgniter 4.",
     "license": "MIT",
     "type": "library",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Szunsoku\\Auth2\\": "src/"
+            "Szunsoku\\Auth\\": "src/"
         },
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
